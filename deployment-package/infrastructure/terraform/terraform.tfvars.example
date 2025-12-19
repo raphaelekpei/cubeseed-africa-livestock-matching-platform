@@ -1,0 +1,13 @@
+aws_region  = "us-east-1"
+environment = "dev"
+project     = "ai-livestock-matching"
+
+bedrock_model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
+
+common_tags = {
+  Project     = "ai-livestock-matching"
+  Environment = "dev"
+  ManagedBy   = "terraform"
+  Owner       = "your-team"
+  Service     = "livestock-matching-ai"
+}

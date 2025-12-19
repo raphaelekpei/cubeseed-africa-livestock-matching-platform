@@ -1,0 +1,16 @@
+{
+    "version": "2.0",
+    "app_name": "livestock-matching-ai",
+    "stages": {
+        "dev": {
+            "api_gateway_stage": "api",
+            "autogen_policy": false,
+            "iam_policy_file": "policy-dev.json",
+            "environment_variables": {
+                "PRODUCTS_TABLE_NAME": "livestock-marketplace-dev-livestock-products",
+                "SELLERS_TABLE_NAME": "livestock-marketplace-dev-livestock-sellers",
+                "BEDROCK_MODEL_ID": "anthropic.claude-3-sonnet-20240229-v1:0"
+            }
+        }
+    }
+}

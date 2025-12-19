@@ -1,0 +1,318 @@
+[
+  {
+    "query": "Find goats in Kaduna",
+    "api_sellers_count": 3,
+    "verification_passed": false,
+    "issues": [
+      "Count mismatch: expected ~7, got 3",
+      "Low name overlap: 0.0%"
+    ],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": "Kaduna",
+      "expected_sellers_count": 7,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1002",
+        "Farm 1015",
+        "Farm 1021",
+        "Farm 1022"
+      ],
+      "api_sellers": [
+        "Farm 1004",
+        "Farm 1010",
+        "Farm 1017"
+      ],
+      "name_overlap_ratio": 0.0
+    }
+  },
+  {
+    "query": "Show me cattle sellers",
+    "api_sellers_count": 6,
+    "verification_passed": false,
+    "issues": [
+      "Count mismatch: expected ~21, got 6"
+    ],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": null,
+      "expected_sellers_count": 21,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1002",
+        "Farm 1025",
+        "Farm 1006",
+        "Farm 1005"
+      ],
+      "api_sellers": [
+        "Farm 1020",
+        "Farm 1022",
+        "Farm 1021",
+        "Farm 1005",
+        "Farm 1011"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "I need poultry suppliers",
+    "api_sellers_count": 2,
+    "verification_passed": false,
+    "issues": [
+      "Count mismatch: expected ~21, got 2"
+    ],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": null,
+      "expected_sellers_count": 21,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1002",
+        "Farm 1025",
+        "Farm 1006",
+        "Farm 1005"
+      ],
+      "api_sellers": [
+        "Farm 1019",
+        "Farm 1006"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Find fish sellers",
+    "api_sellers_count": 4,
+    "verification_passed": false,
+    "issues": [
+      "Count mismatch: expected ~21, got 4"
+    ],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": null,
+      "expected_sellers_count": 21,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1002",
+        "Farm 1025",
+        "Farm 1006",
+        "Farm 1005"
+      ],
+      "api_sellers": [
+        "Farm 1001",
+        "Farm 1019",
+        "Farm 1017",
+        "Farm 1024"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Show me sheep suppliers",
+    "api_sellers_count": 2,
+    "verification_passed": false,
+    "issues": [
+      "Count mismatch: expected ~21, got 2"
+    ],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": null,
+      "expected_sellers_count": 21,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1002",
+        "Farm 1025",
+        "Farm 1006",
+        "Farm 1005"
+      ],
+      "api_sellers": [
+        "Farm 1024",
+        "Farm 1012"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Find livestock in Lagos",
+    "api_sellers_count": 6,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": "Lagos",
+      "expected_sellers_count": 6,
+      "expected_sellers": [
+        "Farm 1025",
+        "Farm 1001",
+        "Farm 1010",
+        "Farm 1017",
+        "Farm 1011"
+      ],
+      "api_sellers": [
+        "Farm 1025",
+        "Farm 1010",
+        "Farm 1019",
+        "Farm 1001",
+        "Farm 1017"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Show me sellers in Kaduna",
+    "api_sellers_count": 7,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": "Kaduna",
+      "expected_sellers_count": 7,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1002",
+        "Farm 1015",
+        "Farm 1021",
+        "Farm 1022"
+      ],
+      "api_sellers": [
+        "Farm 1014",
+        "Farm 1013",
+        "Farm 1022",
+        "Farm 1021",
+        "Farm 1024"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "I need suppliers in Abuja",
+    "api_sellers_count": 2,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": null,
+      "extracted_location": "Abuja",
+      "expected_sellers_count": 2,
+      "expected_sellers": [
+        "Farm 1005",
+        "Farm 1016"
+      ],
+      "api_sellers": [
+        "Farm 1016",
+        "Farm 1005"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Find Cattle Sokoto Gudali",
+    "api_sellers_count": 6,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": "Cattle Sokoto Gudali",
+      "extracted_location": null,
+      "expected_sellers_count": 6,
+      "expected_sellers": [
+        "Farm 1005",
+        "Farm 1015",
+        "Farm 1021",
+        "Farm 1022",
+        "Farm 1011"
+      ],
+      "api_sellers": [
+        "Farm 1020",
+        "Farm 1022",
+        "Farm 1021",
+        "Farm 1005",
+        "Farm 1011"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Show me Fish Tilapia",
+    "api_sellers_count": 4,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": "Fish Tilapia",
+      "extracted_location": null,
+      "expected_sellers_count": 4,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1001",
+        "Farm 1017",
+        "Farm 1019"
+      ],
+      "api_sellers": [
+        "Farm 1001",
+        "Farm 1019",
+        "Farm 1017",
+        "Farm 1024"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "I need Poultry Broiler",
+    "api_sellers_count": 2,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": "Poultry Broiler",
+      "extracted_location": null,
+      "expected_sellers_count": 2,
+      "expected_sellers": [
+        "Farm 1006",
+        "Farm 1019"
+      ],
+      "api_sellers": [
+        "Farm 1019",
+        "Farm 1006"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Find Goat Sokoto Red",
+    "api_sellers_count": 3,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": "Goat Sokoto Red",
+      "extracted_location": null,
+      "expected_sellers_count": 3,
+      "expected_sellers": [
+        "Farm 1010",
+        "Farm 1017",
+        "Farm 1004"
+      ],
+      "api_sellers": [
+        "Farm 1004",
+        "Farm 1010",
+        "Farm 1017"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  },
+  {
+    "query": "Show me Sheep Yankasa",
+    "api_sellers_count": 2,
+    "verification_passed": true,
+    "issues": [],
+    "details": {
+      "extracted_livestock": "Sheep Yankasa",
+      "extracted_location": null,
+      "expected_sellers_count": 2,
+      "expected_sellers": [
+        "Farm 1024",
+        "Farm 1012"
+      ],
+      "api_sellers": [
+        "Farm 1024",
+        "Farm 1012"
+      ],
+      "name_overlap_ratio": 1.0
+    }
+  }
+]

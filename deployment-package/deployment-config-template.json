@@ -1,0 +1,35 @@
+{
+    "deployment_info": {
+        "app_name": "livestock-matching-ai",
+        "current_deployment": {
+            "account_id": "YOUR_ACCOUNT_ID",
+            "region": "eu-west-1",
+            "stage": "dev",
+            "api_gateway_stage": "api"
+        },
+        "resources_created": {
+            "lambda_function": "livestock-matching-ai-dev",
+            "api_gateway_id": "mxu25s1yia",
+            "api_gateway_url": "https://mxu25s1yia.execute-api.eu-west-1.amazonaws.com/api/",
+            "iam_role": "livestock-matching-ai-dev-api_handler"
+        }
+    },
+    "customization_guide": {
+        "for_new_deployment": {
+            "step_1": "Update .chalice/config.json - change app_name if needed",
+            "step_2": "Update .chalice/policy-dev.json - replace account ID and region",
+            "step_3": "Update environment variables in config.json for your DynamoDB tables",
+            "step_4": "Run 'chalice deploy --stage dev' or your preferred stage"
+        },
+        "environment_variables_to_update": {
+            "PRODUCTS_TABLE_NAME": "Your DynamoDB products table name",
+            "SELLERS_TABLE_NAME": "Your DynamoDB sellers table name",
+            "BEDROCK_MODEL_ID": "Your Bedrock model ID (optional)"
+        },
+        "iam_policy_updates_required": {
+            "account_id": "Replace YOUR_ACCOUNT_ID with your AWS account ID",
+            "region": "Replace eu-west-1 with your AWS region",
+            "table_names": "Update DynamoDB table ARNs to match your table names"
+        }
+    }
+}

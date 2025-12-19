@@ -1,0 +1,14 @@
+# Livestock Marketplace Environment Configuration Template
+# Copy this file to .env and customize for your environment
+#
+# Usage: cp environment.template .env
+
+# AWS Configuration
+AWS_REGION=us-east-1
+PROJECT_NAME=livestock-marketplace
+ENVIRONMENT=dev
+
+# AWS Credentials (if not using AWS CLI or IAM roles)
+# Uncomment and set these if you're not using AWS CLI or IAM roles
+# AWS_ACCESS_KEY_ID=your_access_key_here
+# AWS_SECRET_ACCESS_KEY=your_secret_key_here

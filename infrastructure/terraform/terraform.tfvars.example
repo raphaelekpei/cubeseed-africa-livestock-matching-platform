@@ -1,0 +1,10 @@
+aws_region  = "us-east-1"
+environment = "dev"
+project     = "livestock-marketplace"
+
+common_tags = {
+  Project     = "livestock-marketplace"
+  Environment = "dev"
+  ManagedBy   = "terraform"
+  Owner       = "your-team"
+}
